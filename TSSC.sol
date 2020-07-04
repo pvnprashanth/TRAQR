@@ -1,3 +1,5 @@
+
+//Trust Score Smart Contract s_id, p_id are source and provider domain ids
 pragma solidity ^0.4.25;
 pragma experimental ABIEncoderV2;
 
@@ -39,3 +41,4 @@ contract trust_scores{
         
         return (s_id,p_id,score);
     }}
+    
